@@ -1,0 +1,54 @@
+# =====================================
+# 🪙 MohabMamdouh Wallet - Git Ignore
+# =====================================
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# IDE and editor junk
+/.idea/
+/.vscode/
+/nbproject/
+/*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Node (if you ever use frontend build)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# PHPUnit / Testing
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+/tests/coverage/
+/coverage/
+
+# Build / Cache
+/.cache/
+/build/
+/dist/
+/.env
+.env.*
+.env.local
+.env.backup
+
+# Logs
+*.log
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Temporary / backup files
+*.bak
+*.tmp
+*.swp
+*~
